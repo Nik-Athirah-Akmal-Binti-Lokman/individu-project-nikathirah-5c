@@ -1,0 +1,135 @@
+
+
+body 
+    {
+        background-color: bisque;
+    }
+
+table, tr, td, th
+    {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+table.contoh
+    {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+tr
+    {
+        background-color: lightgoldenrodyellow;
+    }
+
+th
+    {
+        background-color: lightslategrey;
+    }
+
+tr:nth-child(odd)
+    {
+        background-color:burlywood;
+    }
+
+tr:hover
+    {
+        background-color: lightgoldenrodyellow;
+    }
+
+
+ul
+    {
+        list-style-type:square;
+    }
+
+ol
+    {
+        list-style-type:lower-alpha;
+    }
+
+a
+    {
+        text-decoration: none;
+    }
+
+
+    .header {
+        overflow: hidden;
+        background-color: bisque;
+        padding: 20px 10px;
+      }
+      
+ 
+      .header a {
+        float: top;
+        color: #807262;
+        text-align: left;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+      }
+      
+
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+
+      .header a:hover {
+        background-color: bisque;
+        color: #807262;
+      }
+      
+
+      .header a.active {
+        background-color: #807262;
+        color: bisque;
+      }
+      
+ 
+      .header-right {
+        float: right;
+      }
+      
+
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        .header-right {
+          float: none;
+        }
+      }
+
+      <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #807262;
+        color: bisque;
+        text-align: center;
+      }
+      </style>
+      
+      <div class="footer">
+      <p>Phone number: +6011-31890620</p>
+
+        <framesrc https://goo.gl/maps/RKqLtL2NvBq8enYMA</frame>
+
+        <i class="fa-regular fa-envelope"></i> mail to: 
+            athirahnik21@gmail.com
+
+        <a href="https://facebook.com/nik.athirah.904/"><i 
+            class="fa-brands fa-facebook"></i></a>
+
+        <p>Address: No.3, Jalan Suakasih 1/1a, Bandar Tun Hussein Onn, 43200, Cheras, Selangor</p>
+
+      </div>
